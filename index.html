@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,900;1,6..96,400&family=Lato:ital,wght@0,700;1,300&family=Pacifico&family=Poppins:wght@400;600&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>Dheeraj's-Portfolio</h1>
+        </div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Project</li>
+                <li>Contact</li>
+           </ul>
+      </nav>
+    </header>
+    <main class="firstsection">
+        <section class="leftsection">
+            <div>Hi, My name is<span> Dheeraj</span><div>
+            <div> and I am a </div>
+            <span id="element"></span>
+        </section>
+        <section class="rightsection">
+            <div><img src="./bg.png" alt="Developer-img"></div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'DevOps-Engineer','IOT-Engineer',],
+          typeSpeed: 50,
+        });
+      </script>
+    
+  </body>
+</html>
